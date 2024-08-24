@@ -1,0 +1,52 @@
+.contianer {
+    display: flex;
+    min-width: 100%;
+    border: 0px solid #fff;
+    background: rgba(168, 167, 167, 0.24);
+    backdrop-filter: blur(7px);
+    align-items: center;
+  }
+  .textcontent-logo{
+    width: 100%;
+  }
+  .textcontent-logo a {
+    width: 50%;
+    color: #87428d;
+    font-family: Inter;
+    font-size: 24px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: -0.48px;
+  }
+  .textcontent-logo {
+    text-align: left;
+    margin-left: 50px;
+  }
+  .button-add {
+    width: 100%;
+  }
+  .button-add a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .button-add a button {
+    /* Your button styles */
+    position: absolute;
+    width: 121px;
+    height: 39px;
+    margin-right: 50px;
+    border-radius: 27px;
+    border: 0px solid #000;
+    background: #b8b8b8;
+    color: #202020;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.3px;
+  }
